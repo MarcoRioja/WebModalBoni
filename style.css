@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Activar Modal */
+#modal1:target {
+    display: flex;
+}
+
+/* Modal */
+#modal1 {
+    display: none;
+    position: absolute;
+    top: 20%;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Caja del Modal */
+#modalBox {
+    background-color: rgba(128, 128, 128, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 500px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    color: white;
+}
+
+/* Boton de Mostrar */
+#openM {
+    text-decoration: none;
+    color: black;
+}
+
+/* Boton de Cerrar */
+#closeM button{
+    background-color: red;
+    width: 500px;
+    height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0px;
+    border: 0px;
+    color: white;
+}
+
+/* Boton de Cerrar (Hover) */
+#closeM button:hover{
+    background-color: rgb(200, 0, 0);
+}
